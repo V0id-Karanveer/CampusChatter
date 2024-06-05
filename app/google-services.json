@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "8480249753",
+    "project_id": "campuschatter-47785",
+    "storage_bucket": "campuschatter-47785.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:8480249753:android:e373dfefae7e68ba3f6508",
+        "android_client_info": {
+          "package_name": "com.example.campuschatter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwZPms92oOVGmK54cVVE6sB7urS3FIl3s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

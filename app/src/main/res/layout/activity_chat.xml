@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".ChatActivity">
+
+    <!-- Username Bar -->
+    <TextView
+        android:id="@+id/usernameBar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_bar"
+        android:gravity="center"
+        android:text="Username"
+        android:fontFamily="@font/kumbh_sans_bold"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:padding="12dp"
+        android:layout_margin="8dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/chatRecyclerView"
+        android:layout_below="@id/usernameBar"
+        android:layout_above="@+id/linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        android:layout_marginBottom="15dp">
+
+        <EditText
+            android:id="@+id/messageBox"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="95"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/edittext_background"
+            android:hint="Type here..."
+            android:padding="12dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#B3B3B3"
+            />
+
+        <ImageView
+            android:id="@+id/sentButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="5"
+            android:layout_marginRight="4dp"
+            android:src="@drawable/send" />
+
+    </LinearLayout>
+
+</RelativeLayout>
