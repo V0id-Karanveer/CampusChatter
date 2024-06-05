@@ -11,10 +11,10 @@ CampusChatter is a dedicated chatting application tailored for college campuses,
 
 ## Screenshots
 
-![Screenshot 1](1.jpg)
-![Screenshot 2](2.jpg)
-![Screenshot 3](3.jpg)
-![Screenshot 4](4.jpg)
+<img src="screenshot1_small.png" width="200" height="400">
+<img src="screenshot2_small.png" width="200" height="400">
+<img src="screenshot3_small.png" width="200" height="400">
+<img src="screenshot4_small.png" width="200" height="400">
 
 ## Technologies Used
 
