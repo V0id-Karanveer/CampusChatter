@@ -1,38 +1,32 @@
-# GharKhojo - A Comprehensive Real Estate Platform
+# CampusChatter
 
-Welcome to GharKhojo, a cutting-edge real estate platform designed to revolutionize the way buyers, sellers, and property managers interact in the real estate market.
-## Technologies Used
-
-### Backend
-- **Stack**: MERN (MongoDB, Express, React, Node.js)
-- **Authentication**: JSON Web Tokens (JWT), Firebase, Google OAuth
-- **State Management**: Redux Toolkit
-
-### Frontend
-- **Framework**: React
-- **State Management**: Redux Toolkit
-- **UI**: User-friendly features including image uploads and dynamic property listing management
-
-### Cookies
-- **Purpose**: Used for maintaining user sessions and enhancing user experience.
-- **Implementation**: Utilizes cookies for session management, providing seamless navigation and personalized features.
-
-### Hosting
-- **Platform**: Render Platform
-- **Benefits**: Scalability and high performance, catering to users worldwide
+CampusChatter is a dedicated chatting application tailored for college campuses, ensuring secure and verified registration through college IDs verified via Firebase. Built using Kotlin, CampusChatter offers real-time chatting functionality along with user search capabilities.
 
 ## Features
-- **CRUD Operations**: Empowers users to create, read, update, and delete property listings with ease.
-- **Advanced Search Functionality**: Allows users to navigate and find their desired properties efficiently.
-- **User Authentication and Authorization**: Implemented using JWT, Firebase, and Google OAuth for secure access to accounts.
-- **User-Friendly Interface**: Designed with features like image uploads and dynamic property listing management to enhance user experience.
 
-## Future Enhancements
-- Continuous development and updates to introduce new features and improve existing functionalities.
-- Commitment to innovation and user satisfaction drives the development roadmap.
+- **College ID Verification**: Only users with valid college IDs can register, ensuring a secure and authentic community of college students.
+- **Firebase Integration**: Seamless integration with Firebase for college ID verification and real-time chatting functionality.
+- **Real-time Chatting**: Engage in instant messaging with fellow students, fostering collaboration and communication within the campus community.
+- **User Search**: Easily find and connect with other users within the campus network.
 
-## Get Started
-Visit [GharKhojo](https://gharkhojo.onrender.com/) to explore the platform and experience the future of real estate.
+## Screenshots
 
+![Screenshot 1](1.jpg)
+![Screenshot 2](2.jpg)
+![Screenshot 3](3.jpg)
+![Screenshot 4](4.jpg)
 
+## Technologies Used
 
+- **Kotlin**: The primary programming language used for building the application.
+- **Firebase**: Used for authentication, real-time database, and storage functionalities.
+- **Android SDK**: Leveraged for developing the Android application interface.
+
+## Getting Started
+
+To get started with CampusChatter, follow these steps:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/yourusername/CampusChatter.git
