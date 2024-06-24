@@ -12,10 +12,10 @@ CampusChatter is a dedicated chatting application tailored for college campuses,
 ## Screenshots
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <img src="1.jpg" width="200" height="400">
-    <img src="2.jpg" width="200" height="400">
-    <img src="3.jpg" width="200" height="400">
-    <img src="4.jpg" width="200" height="400">
+    <img src="1.jpg" width="200" height="450">
+    <img src="2.jpg" width="200" height="450">
+    <img src="3.jpg" width="200" height="450">
+    <img src="4.jpg" width="200" height="450">
 </div>
 
 ## Technologies Used
@@ -31,4 +31,4 @@ To get started with CampusChatter, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/CampusChatter.git
+   git clone https://github.com/V0id-Karanveer/CampusChatter.git
